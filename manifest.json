@@ -1,17 +1,16 @@
 {
     "manifest_version": 3,
-    "name": "DeepWiki Redirect",
-    "version": "1.0",
-    "description": "GitHubリポジトリURLをDeepWikiにリダイレクトし、元に戻す拡張機能",
+    "name": "DeepWiki Toggle",
+    "version": "1.1",
+    "description": "GitHubリポジトリとDeepWikiをワンクリックで切り替える",
     "permissions": [
-        "activeTab",
-        "tabs"
+        "tabs",
+        "activeTab"
     ],
     "background": {
         "service_worker": "background.js"
     },
     "action": {
-        "default_popup": "popup.html",
         "default_icon": {
             "16": "icon16.png",
             "48": "icon48.png",
